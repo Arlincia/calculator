@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: radial-gradient(#F4D160, #75C2F6);
+}
+
+.calculator {
+    display: inline-block;
+    align-content: center;
+    background: #1D5D9B;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #1D5D9B;
+    box-shadow: 8px 8px 4px #75C2F6;
+    width: 400px
+}
+
+.screen {
+    background: #DD58D6;
+    display: inline-block;
+    align-items: center;
+}
+
+input.screen {
+    background: #DD58D6;
+}
+
+input.btn {
+    background: #75C2F6;
+    border-color: #F4D160;
+}
+
+p {
+    color: #40128B;
+    font-weight: bold;
+    box-sizing: content-box;
+}
